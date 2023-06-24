@@ -8,6 +8,7 @@ const Header = () => {
         <div>
           <p className="tw-text-lg tw-text-white tw-font-normal">Programs</p>
         </div>
+        <Button text='Log In' />
       </div>
     </div>
   );
@@ -19,10 +20,12 @@ export const Logo = () => {
     </div>
   );
 };
-export const Button = () => {
+export const Button = ({ text }) => {
   return (
     <div>
-      <button className="tw-bg-[#fcdf0f] tw-h-12 tw-w-32"></button>
+      <button className="tw-bg-[#fcdf0f] tw-h-10 tw-w-32 tw-text-[#1b1b1b] tw-text-lg tw-font-normal tw-rounded-full">
+        {text}
+      </button>
     </div>
   );
 };
