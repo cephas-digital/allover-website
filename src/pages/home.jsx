@@ -107,7 +107,12 @@ const Hero = () => {
             {/* <img src={Arrow} alt="" className="" /> */}
           </div>
           <div className="tw-hidden lg:tw-block">
-            <a href="https://tinyurl.com/allovertech" className="">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://tinyurl.com/allovertech"
+              className=""
+            >
               <Button text="Register" />
             </a>
           </div>
@@ -128,6 +133,8 @@ const Hero = () => {
               className="tw-mt-8 tw-flex tw-flex-col lg:tw-flex-row tw-gap-5"
             >
               <a
+                rel="noreferrer"
+                target="_blank"
                 href="https://tinyurl.com/allovertech"
                 className="tw-bg-[#fcdf0f] segoe tw-h-12 tw-w-44 tw-pl-4 tw-pr-1 tw-text-[#1b1b1b] tw-justify-between tw-items-center tw-text-lg tw-font-normal tw-rounded-full tw-flex"
               >
@@ -223,7 +230,11 @@ const Hero = () => {
             </p>
           </div>
           <div className="tw-mt-6">
-            <a href="https://tinyurl.com/allovertech">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://tinyurl.com/allovertech"
+            >
               <Button text="Register Now" />
             </a>
           </div>
@@ -330,6 +341,8 @@ const OurCourses = () => {
                 <div>
                   <a
                     href="https://tinyurl.com/allovertech"
+                    rel="noreferrer"
+                    target="_blank"
                     className="tw-text-sm tw-font-semibold tw-text-[#716FC3] tw-cursor-pointer"
                   >
                     Enroll Now
@@ -642,7 +655,7 @@ const Footer = () => {
   return (
     <div>
       <div className="tw-mt-20 tw-w-full tw-bg-[#071A55] tw-py-16">
-        <div className="container tw-flex tw-flex-col lg:tw-flex-row tw-gap-5 lg:tw-gap-6 tw-justify-between">
+        <div className="container tw-flex tw-flex-col lg:tw-flex-row lg:tw-gap-12 tw-gap-6 tw-justify-center">
           <div className="tw-flex tw-gap-4">
             <div>
               <Logo />
@@ -652,12 +665,12 @@ const Footer = () => {
                 AllOver ICT Institute
               </h4>
               <p className="tw-text-lg tw-text-white tw-font-normal segoe tw-w-72 tw-pt-6">
-                Lorem ipsum dolor sit amet consectetur. Vestibulum faucibus
-                lobortis orci eget diam.
+                At AllOver ICT Institute, we enable our students to stand out in
+                their careers irrespective of their course of study.
               </p>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h4 className="tw-text-xl tw-font-semibold tw-text-white segoe">
               Legal
             </h4>
@@ -671,8 +684,8 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h4 className="tw-text-xl tw-font-semibold tw-text-white segoe">
               Support
             </h4>
@@ -686,7 +699,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
           <div>
             <h4 className="tw-text-xl tw-text-[#FAF408] segoe">
               Connect with us
@@ -697,7 +710,9 @@ const Footer = () => {
               ))}
             </div>
             <p className="tw-pt-6 tw-text-lg segoe tw-text-white">
-              Contact: <br /> +234 900 111 2222
+              Contact: <br />
+              08030722868 <br />
+              09114510710
             </p>
           </div>
         </div>
