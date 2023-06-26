@@ -4,23 +4,7 @@ import Arrow from "../assets/down.svg";
 const Header = () => {
   return (
     <div>
-      <div className="tw-flex container tw-justify-between tw-py-6 tw-items-center">
-        <div className="tw-flex tw-gap-6 tw-items-center">
-          <Logo />
-          <p className="tw-text-white tw-hidden lg:tw-hidden tw-text-lg tw-font-semibold">
-            AllOver ICT <br /> Institute
-          </p>
-        </div>
-        <div className="lg:tw-flex tw-hidden tw-gap-2 tw-items-center">
-          <p className="tw-text-lg tw-text-white tw-font-normal segoe">
-            Programs
-          </p>
-          <img src={Arrow} alt="" className="" />
-        </div>
-        <div className="tw-hidden lg:tw-block">
-          <Button text="Log In" />
-        </div>
-      </div>
+   
     </div>
   );
 };
