@@ -35,6 +35,8 @@ import Linkedlin from "../assets/linkedlin.svg";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { IconContext } from "react-icons";
 import { useState } from "react";
+import Software from "../assets/software.jpg";
+import UiUx from "../assets/uiux.jpg";
 const Home = () => {
   return (
     <div
@@ -270,7 +272,7 @@ const OurCourses = () => {
       image: Data,
       title: "Data Science/ML/AI",
       price: "150,000",
-      aspect: "Design",
+      aspect: "Programming",
       duration: "3 months",
     },
     {
@@ -288,17 +290,17 @@ const OurCourses = () => {
       duration: "3 months",
     },
     {
-      image: Marketing,
+      image: Software,
       title: "Software Engineering",
       price: "100,000",
-      aspect: "Marketing",
+      aspect: "Software Development",
       duration: "3 months",
     },
     {
-      image: Marketing,
+      image: UiUx,
       title: "UI/UX",
       price: "100,000",
-      aspect: "Marketing",
+      aspect: "Design",
       duration: "3 months",
     },
   ];
