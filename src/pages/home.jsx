@@ -504,7 +504,7 @@ const Updates = () => {
                 <div className="tw-flex tw-justify-between tw-mt-3">
                   <p className="tw-text-xs tw-italic tw-text-[#4A4A4A]">
                     Posted on
-                    <br /> 23-10-2023
+                    <br /> 23-04-2023
                   </p>
                   <div className="tw-w-24 tw-rounded-lg tw-h-8 tw-bg-[#182677] tw-flex tw-justify-center tw-gap-3 tw-items-center">
                     <img src={Instagram} alt="" className="" />
@@ -535,7 +535,7 @@ const Updates = () => {
                 <div className="tw-flex tw-justify-between tw-mt-3">
                   <p className="tw-text-xs tw-italic tw-text-[#4A4A4A]">
                     Posted on
-                    <br /> 23-10-2023
+                    <br /> 23-05-2023
                   </p>
                   <div className="tw-w-24 tw-rounded-lg tw-h-8 tw-bg-[#182677] tw-flex tw-justify-center tw-gap-3 tw-items-center">
                     <img src={Instagram} alt="" className="" />
