@@ -69,7 +69,7 @@ const Hero = () => {
         >
           <div className="tw-flex tw-gap-6 tw-items-center">
             <Logo />
-            <p className="tw-text-white tw-hidden lg:tw-block tw-text-lg tw-font-semibold">
+            <p className="tw-text-white lg:tw-text-lg tw-text-xs tw-font-semibold">
               AllOver ICT <br /> Institute
             </p>
           </div>
